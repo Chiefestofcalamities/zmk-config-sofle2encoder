@@ -48,7 +48,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LEFT_HR_MOD";
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             require-prior-idle-ms = <150>;
             flavor = "tap-preferred";
@@ -59,7 +59,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "RIGHT_HR_MOD";
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             require-prior-idle-ms = <150>;
             flavor = "tap-preferred";
